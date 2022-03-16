@@ -14,4 +14,10 @@ steps:
   inputs:
    repository: $(imageName)
    command: build
+- task: CmdLine@2
+  inputs:
+    script: |
+      echo Write your commands here
+      
+      echo Hello world
    Dockerfile: app/Dockerfile
